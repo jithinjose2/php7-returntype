@@ -5,11 +5,9 @@ class User{}
 /**
  * @return User - Retrun user object
  **/
-function getUser(){
+function getUser() : User {
     return 1;
 }
 
 $user = getUser();
-if(is_object($user)){
-    
-}
+$user->name;

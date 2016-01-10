@@ -1,12 +1,12 @@
 <?php
 
 interface Product {
-    static function getPrice() ;  
+    static function getPrice():float ;  
 }
 
 class Pen implements Product {
-    static function getPrice() {
-        return false;
+    static function getPrice():float {
+        return [];
     }
 }
 
