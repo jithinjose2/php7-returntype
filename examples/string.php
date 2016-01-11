@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 function testString($a) : string {
     return $a;
 }

@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 
 function sum($a, $b): int {
     return $a + $b;
